@@ -1,0 +1,140 @@
+/********* Generall Area *******/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(220, 244, 252);
+    color: #171717;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 64px;
+}
+
+html {
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+/********* Header Area *******/
+
+header {
+    height: 64px;
+    position: fixed;
+    width: 97%;
+    right: 0;
+    left: 0;
+    top: 0;
+    border-bottom: 2px solid black;
+    padding: 0px 24px 0px 24px;
+    z-index: 10;
+    background-color: white;
+}
+
+li {
+    list-style: none;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.navigation ul li {
+    padding-left: 16px;
+}
+
+.navigation {
+    margin: auto 0;
+    font-size: 20px;
+}
+
+.logo-text {
+    font-weight: bold;
+}
+
+.logo-text .nav-academy {
+    color: grey;
+    font-weight: lighter;
+}
+
+.logo img {
+    height: auto;
+    width: 50px;
+}
+
+.logo span {
+    font-size: 28px;
+}
+
+/********* Content Banner Area *******/
+
+.content-area {
+    display: flex;
+    margin: 35px 24px;
+    height: 600px;
+    align-items: center;
+}
+
+.content-area-img img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.content-area-img {
+    margin-right: 24px;
+}
+
+.container-content-area-text
+{
+    height: 100%;
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.content-area-text {
+    width: 100%;
+}
+
+.content-area-h {
+    margin: 0px 0px 20px 0px;
+    font-size: 4rem;
+}
+
+.content-area-p {
+    padding: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.content-area-button {
+    width: 300px;
+    height: 55px;
+    background-color: rgb(47, 43, 49);
+    color: white;
+    font-size: 1.1rem;
+    border: 0px;
+    transition: 300ms background-color ease-in-out ;
+    cursor: pointer;
+}
+
+.content-area-button:hover {
+    background-color:  rgb(96, 93, 97);;
+}
