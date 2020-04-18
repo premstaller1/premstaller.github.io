@@ -138,3 +138,119 @@ li {
 .content-area-button:hover {
     background-color:  rgb(96, 93, 97);;
 }
+
+/********* Content 1 Area *******/
+
+.content-container {
+    background-color: white;
+    padding-bottom: 32px;
+}
+
+.content-container-right {
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container-left {
+width: 60%;
+float: left;
+padding: 32px 24px;
+border-right: 1px solid gray;
+}
+
+.content-img img{
+    max-width: 100%;
+    height: auto;
+}
+
+.content-container-left h1 {
+    font-weight: bold;
+    margin: 32px 0px 24px 0px;
+    font-size: 2.4rem;
+}
+
+.content-container-left p {
+    font-weight: lighter;
+    font-size: 0.85rem;
+    margin-bottom: 24px;
+}
+
+.content-container-left span {
+    font-size: 0.85rem;
+}
+
+.content-container-right .orientation, .campus, .guest-lecture {
+    display: flex;
+    align-content: center;
+}
+
+.content-container-right img {
+    max-width: 35%;
+    height: auto;
+}
+
+.content-container-right .orientation-text {
+    width: 60%;
+    display: inline-flex;
+    justify-content: left;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.content-container-right .guest-lecture img{
+    padding: 16px 16px;
+}
+
+.content-container-right .orientation img {
+    padding: 16px 16px 16px 16px;
+}
+
+.content-container-right .campus img {
+    padding: 16px 16px 16px 16px;
+}
+
+.campus {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+.orientation-text {
+    opacity: 0.65;
+}
+
+.orientation {
+    border-top: 1px solid gray;
+}
+
+.guest-lecture {
+    border-bottom: 1px solid gray;
+}
+
+.orientation-text h2 {
+    padding-bottom: 8px;
+}
+
+.orientation-text p {
+    padding-bottom: 8px;
+}
+
+.orientation-text a {
+    text-decoration: none;
+    margin-right: 200px;
+}
+
+.orientation:hover, .campus:hover, .guest-lecture:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+/********* Learning Area *******/
+
+.learning {
+    padding: 32px 72px;
+}
+
+.learning h1 {
+    text-align: center;
+}
+
