@@ -247,10 +247,148 @@ border-right: 1px solid gray;
 /********* Learning Area *******/
 
 .learning {
-    padding: 32px 72px;
+    padding: 0px 72px 32px 72px;
 }
 
 .learning h1 {
     text-align: center;
+    margin: 32px 0px;
+    font-size: 3rem;
 }
 
+#learning-content-container {
+    background-color: white;
+    width: 400px;
+}
+
+.learning-content-container-text {
+    padding: 16px 24px 24px 16px;
+}
+
+.learning-content-container-text span {
+    font-size: 2rem;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.learning-content-container-text p {
+    margin-top: 8px;
+    font-weight: lighter;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.learning-content-top {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.learning-content-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.learning-content-container-2, .learning-content-container-5 {
+    margin: 0px 32px;
+}
+
+#learning-content-container img {
+    overflow: hidden;
+    width: 400px;
+}
+
+/********** Exhibit-Area ********/
+
+.exhibit-area {
+    background-color: white;
+    padding: 32px 24px;
+}
+
+.exhibit-area h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 32px;
+}
+
+.exhibit-area-content {
+    display: flex;
+}
+.exhibit-area-content-left {
+    width: 60%;
+    padding-right: 24px;
+}
+
+.exhibit-area-content-left p {
+    margin-top: 8px;
+    opacity: 0.8;
+    color: gray;
+    font-weight: lighter;
+    font-size: 0.9rem;
+}
+
+.exhibit-area-content-left h3 {
+    font-size: 1.8rem;
+    opacity: 0.9;
+}
+
+.exhibit-area video {
+    max-width: 100%;
+    padding-bottom: 24px;
+}
+
+.exhibit-area-content-right {
+    width: 40%;
+}
+
+#exhibit-area-content-left-container {
+    padding: 16px 16px 16px 16px;
+    display: flex;
+    align-items: center;
+    transition-duration: 300ms;
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+#exhibit-area-content-left-container img {
+    max-width: 35%;
+    height: auto;
+}
+
+#exhibit-area-content-left-container:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+#exhibit-area-left-text {
+    padding-left: 16px;
+    width: 65%;
+}
+
+#exhibit-area-left-text h2 {
+    font-size: 1.8rem;
+    opacity: 0.7;
+    line-height: 150%;
+}
+
+#exhibit-area-left-text p {
+    font-size: 1rem;
+    opacity: 0.7;
+    font-weight: lighter;
+}
+
+/********** Footer-Area ********/
+
+footer {
+    margin: 16px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 0.8rem;
+    opacity: 0.8;
+    color: gray;
+    font-weight: lighter;
+}
